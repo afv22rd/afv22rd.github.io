@@ -15,11 +15,31 @@
         }
 
         .buttons {
-                margin: auto;
+                margin-right: 0px;
                 width: 50%;
                 border: 5px;
                 padding: 10px;
         }
+
+        #but1 {
+                margin-right: 10px;
+                width: 50%;
+                clear: both;
+        }
+
+        #but2 {
+                margin-right: 10px;
+                width: 50%;
+                clear: both;
+        }
+
+        #but3 {
+                margin-right: 10px;
+                width: 50%;
+                clear: both;
+        }
+
+
                       
                 
                 
