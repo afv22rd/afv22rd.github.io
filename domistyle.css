@@ -10,8 +10,16 @@
         .middlepart {
                 margin: auto;
                 width: 50%;
-                border: 10px green;
+                border: 10px;
                 padding: 20px;
         }
+
+        .buttons {
+                margin: auto;
+                width: 50%;
+                border: 5px;
+                padding: 10px;
+        }
+                      
                 
                 
