@@ -6,6 +6,13 @@
         body {
             background-color: #5F9EA0;
         }
+        
+        #buttons1 { width: 600px;}
+
+        #but-td { width: 200px;
+                text-align:center;
+        }
+                
 
 
                       
