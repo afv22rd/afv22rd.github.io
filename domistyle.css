@@ -1,4 +1,3 @@
-
         h1 {
             color: #32CD32;
         }  
@@ -6,8 +5,8 @@
         body {
             background-color: #000000;
         }
-        
-        #buttons1 { width: 800px;}
+
+	
 
         #but-td { width: 266.67px;
                 text-align:center;
@@ -16,11 +15,21 @@
         #body1 {
                 width: 800px;
                 margin: auto;
+		background-color: #87CEEB;
         }
 
-        p { color: #FFFFFF;}
+        p { color: #000000;}
 
+	#buttons1 { width: 800px;
+		background-color: #87CEEB;
+		}
 
-                      
-                
+	#banner1 {margin: auto;
+		background-color: #87CEEB;
+		}
+
+	#body2 {  width: 800px;
+                margin: auto;
+		background-color: #FFFFFF;
+		}
                 
