@@ -2,19 +2,19 @@
             color: #32CD32;
         }  
         
-
         body {
-		background-color: #000000;
+            	background-color: #000000;
 		margin: auto;
         }
 
+	
         #but-td { width: 266.67px;
                 text-align:center;
         }
        
         #body1 {
                 width: 800px;
-                margin: auto;	
+                margin: auto;
 		background-color: #87CEEB;
         }
 
@@ -24,4 +24,3 @@
                 margin: auto;
 		background-color: #FFFFFF;
 		}
-                
