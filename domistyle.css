@@ -10,6 +10,7 @@
 	
         #but-td { width: 266.67px;
                 text-align:center;
+		transition: 0.7s;
         }
        
         #body1 {
@@ -24,3 +25,6 @@
                 margin: auto;
 		background-color: #FFFFFF;
 		}
+
+	#but-td:hover{
+		transform: scale(1.1);
