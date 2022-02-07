@@ -1,10 +1,31 @@
-        h1 {
-            color: #32CD32;
+
+
+		.one {
+		display:flex;
+		padding: 10px;
+		justify-content: space-between;
+		
+		}
+
+		.two {
+		display:flex;
+		padding: 10px;
+		justify-content: space-between;
+		margin-right: 30px;
+		margin-left: 30px;
+		}
+
+	  h1 {
+		font-family: Rockwell, Arial;
+		font-weight: 900;
+            	color: blue;
+		margin-left: 10px;
         }  
         
         body {
-            	background-color: #000000;
+            background-color: #000000;
 		margin: auto;
+		overflow: auto;
         }
 
 	
@@ -19,19 +40,19 @@
 		background-color: #87CEEB;
         }
 
-        p { color: #000000;}
+        p { 
+		font-family: Arial, Helvetica;
+		color: #000000;
+		margin-left: 10px;
+		}
 
 	#body2 {  
 		width: 800px;
-                margin: auto;
-		background-color: #FFFFFF;
+            margin: auto;
+		background-color: #87CEEB;
+		overflow: auto;
 		}
 
 	#but-td:hover{
 		transform: scale(1.1);
 		
-	#Abel1 {
-		float: right
-		margin-right: 5px
-		clear: both
-		}
