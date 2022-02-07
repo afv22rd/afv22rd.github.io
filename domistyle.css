@@ -21,10 +21,17 @@
 
         p { color: #000000;}
 
-	#body2 {  width: 800px;
+	#body2 {  
+		width: 800px;
                 margin: auto;
 		background-color: #FFFFFF;
 		}
 
 	#but-td:hover{
 		transform: scale(1.1);
+		
+	#Abel1 {
+		float: right
+		margin-right: 5px
+		clear: both
+		}
