@@ -1,10 +1,7 @@
-
-
 		.one {
 		display:flex;
 		padding: 10px;
 		justify-content: space-around;
-		
 		}
 
 		.two {
@@ -15,9 +12,27 @@
 		margin-left: 30px;
 		}
 
+		.coduri {
+			display:flex;
+			padding: 20px;
+			justify-content: space-around;
+			margin-right: 30px;
+			margin-left: 30px;
+		}
+
+		.cod1 {
+			transition: 0.7s;
+		}
+
+		.uri1 {
+			transition: 0.7s;
+		}
+
 	  h1 {
 		font-family: Rockwell, Arial;
 		font-weight: 900;
+		line-height: 40px;
+		font-size: 50px;
             	color: #191970;
 		margin-left: 20px;
         }  
@@ -26,7 +41,6 @@
             background-color: #000000;
 		margin: auto;
 		overflow: auto;
-		height: 150vh;
         }
 
 	
@@ -39,6 +53,7 @@
                 width: 800px;
                 margin: auto;
 		background-color: #87CEEB;
+		height: 150vh;
         }
 
         p { 
@@ -56,4 +71,12 @@
 
 	#but-td:hover{
 		transform: scale(1.1);
-		
+	}
+
+	.cod1:hover {
+		transform: scale(0.9);
+	}
+
+	.uri1:hover {
+		transform: scale(0.9);
+	}
