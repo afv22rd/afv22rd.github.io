@@ -1,79 +1,81 @@
 
-		.one {
-		display:flex;
-		padding: 10px;
-		justify-content: space-around;
-		}
+	
+	
+	.one {
+	display:flex;
+	padding: 10px;
+	justify-content: space-around;
+	}
 
-		.two {
+	.two {
+	display:flex;
+	padding: 10px;
+	justify-content: space-around;
+	margin-right: 30px;
+	margin-left: 30px;
+	}
+
+	.coduri {
 		display:flex;
-		padding: 10px;
+		padding: 20px;
 		justify-content: space-around;
 		margin-right: 30px;
 		margin-left: 30px;
-		}
+	}
 
-		.coduri {
-			display:flex;
-			padding: 20px;
-			justify-content: space-around;
-			margin-right: 30px;
-			margin-left: 30px;
-		}
+	.cod1 {
+		transition: 0.7s;
+	}
 
-		.cod1 {
-			transition: 0.7s;
-		}
+	.uri1 {
+		transition: 0.7s;
+	}
 
-		.uri1 {
-			transition: 0.7s;
-		}
+	h1 {
+	font-family: Rockwell, Arial;
+	font-weight: 900;
+	line-height: 40px;
+	font-size: 50px;
+	color: #191970;
+	margin-left: 20px;
+	}  
 
-	  h1 {
+	h2 {
 		font-family: Rockwell, Arial;
 		font-weight: 900;
 		line-height: 40px;
-		font-size: 50px;
-            	color: #191970;
-		margin-left: 20px;
-        }  
+		font-size: 30px;
+				color: #191970;
+	}
 	
-		h2 {
-			font-family: Rockwell, Arial;
-			font-weight: 900;
-			line-height: 40px;
-			font-size: 30px;
-					color: #191970;
-		}
-        
-        body {
-            background-color: #000000;
-		margin: auto;
-		overflow: auto;
-        }
+	body {
+	background-color: #191970;
+	margin: auto;
+	overflow: auto;
+	}
 
+
+	#but-td { width: 266.67px;
+			text-align:center;
+	transition: 0.7s;
+	}
 	
-        #but-td { width: 266.67px;
-                text-align:center;
-		transition: 0.7s;
-        }
-       
-        #body1 {
-                width: 800px;
-                margin: auto;
-		background-color: #87CEEB;
-		height: 100%;
-        }
+	#body1 {
+	width: 800px;
+	margin: auto;
+	background-color: #87CEEB;
+	height: 100%;
+	}
 
-        p { 
-		font-family: Arial, Helvetica;
-		color: #000000;
-		margin-left: 20px;
-		}
+	p { 
+	font-family: Arial, Helvetica;
+	color: #000000;
+	margin-left: 20px;
+	}
 
 	#body2 {  
 		width: 800px;
-            margin: auto;
+        margin: auto;
 		background-color: #87CEEB;
 		overflow: auto;
 		}
@@ -95,3 +97,24 @@
 	.uri1:hover {
 		transform: scale(0.9);
 	}
+
+	footer {
+		width: 800px;
+		margin-bottom: auto;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: left;
+		background-color: #ffffff;
+	}
+
+	#fter {
+		text-align: center;
+		font-family: 'Lucida Handwritting', 'Courier New', Courier, monospace, Arial;
+		font-weight: 900;
+		font-size: 20px;
+        	color: #191970;
+	}
+        
+
