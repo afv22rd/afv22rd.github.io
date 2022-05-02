@@ -67,6 +67,10 @@
 		height: 100%;
 	}
 
+	#banner {
+		width: 100%;
+	}
+
 	p { 
 	font-family: Arial, Helvetica;
 	color: #000000;
