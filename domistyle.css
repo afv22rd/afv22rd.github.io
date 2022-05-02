@@ -49,22 +49,22 @@
 	}
 	
 	body {
-	background-color: #191970;
-	margin: auto;
-	overflow: auto;
+		background-color: #191970;
+		margin: auto;
+		overflow: auto;
 	}
 
 
-	#but-td { width: 266.67px;
-			text-align:center;
-	transition: 0.7s;
+	#but-td { width: 500px;
+		text-align:center;
+		transition: 0.7s;
 	}
 	
 	#body1 {
-	width: 800px;
-	margin: auto;
-	background-color: #87CEEB;
-	height: 100%;
+		width: 80%;
+		margin: auto;
+		background-color: #87CEEB;
+		height: 100%;
 	}
 
 	p { 
@@ -74,14 +74,15 @@
 	}
 
 	#body2 {  
-		width: 800px;
+		width: 80%;
+		text-align:center;
         margin: auto;
 		background-color: #87CEEB;
 		overflow: auto;
 		}
 	
 	#projects1 {
-		width: 800px;
+		width: 80%;
 		margin: auto;
 		text-align: center;
 	}
@@ -99,7 +100,7 @@
 	}
 
 	footer {
-		width: 800px;
+		width: 80%;
 		margin-bottom: auto;
 		margin-left: auto;
 		margin-right: auto;
@@ -114,7 +115,7 @@
 		font-family: 'Lucida Handwritting', 'Courier New', Courier, monospace, Arial;
 		font-weight: 900;
 		font-size: 20px;
-        	color: #191970;
+        color: #191970;
 	}
         
 
