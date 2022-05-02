@@ -45,7 +45,7 @@
 		font-weight: 900;
 		line-height: 40px;
 		font-size: 30px;
-				color: #191970;
+		color: #191970;
 	}
 	
 	body {
@@ -61,14 +61,17 @@
 	}
 	
 	#body1 {
-		width: 80%;
+		width: 1215px;
 		margin: auto;
 		background-color: #87CEEB;
 		height: 100%;
 	}
 
 	#banner {
-		width: 100%;
+		text-align:center;
+		width: 1215px;
+		margin: auto;
+		overflow: auto;
 	}
 
 	p { 
