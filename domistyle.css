@@ -2,127 +2,128 @@
 	
 	
 	.one {
-	display:flex;
-	padding: 10px;
-	justify-content: space-around;
-	}
-
-	.two {
-	display:flex;
-	padding: 10px;
-	justify-content: space-around;
-	margin-right: 30px;
-	margin-left: 30px;
-	}
-
-	.coduri {
 		display:flex;
-		padding: 20px;
-		justify-content: space-between;
-		margin-right: 30px;
-		margin-left: 30px;
-	}
-
-	.cod1 {
-		transition: 0.7s;
-	}
-
-	.uri1 {
-		transition: 0.7s;
-	}
-
-	h1 {
-	font-family: Rockwell, Arial;
-	font-weight: 900;
-	line-height: 40px;
-	font-size: 50px;
-	color: #191970;
-	margin-left: 20px;
-	}  
-
-	h2 {
+		padding: 10px;
+		justify-content: space-around;
+		}
+	
+		.two {
+		display:flex;
+		padding: 10px;
+		justify-content: space-around;
+		margin-right: 20px;
+		margin-left: 20px;
+		}
+	
+		.coduri {
+			display:flex;
+			padding: 20px;
+			justify-content: space-between;
+			margin-right: 30px;
+			margin-left: 30px;
+		}
+	
+		.cod1 {
+			transition: 0.7s;
+		}
+	
+		.uri1 {
+			transition: 0.7s;
+		}
+	
+		h1 {
 		font-family: Rockwell, Arial;
 		font-weight: 900;
 		line-height: 40px;
-		font-size: 30px;
+		font-size: 50px;
 		color: #191970;
-	}
+		margin-left: 20px;
+		}  
 	
-	body {
-		background-color: #191970;
-		margin: auto;
-		overflow: auto;
-	}
-
-
-	#but-td { width: 500px;
-		text-align:center;
-		transition: 0.7s;
-	}
-	
-	#body1 {
-		width: 1215px;
-		margin: auto;
-		background-color: #87CEEB;
-		height: 100%;
-	}
-
-	#banner {
-		text-align:center;
-		width: 1215px;
-		margin: auto;
-		overflow: auto;
-	}
-
-	p { 
-	font-family: Arial, Helvetica;
-	color: #000000;
-	margin-left: 20px;
-	}
-
-	#body2 {  
-		width: 80%;
-		text-align:center;
-        margin: auto;
-		background-color: #87CEEB;
-		overflow: auto;
+		h2 {
+			font-family: Rockwell, Arial;
+			font-weight: 900;
+			line-height: 40px;
+			font-size: 30px;
+			color: #191970;
+		}
+		
+		body {
+			background-color: #191970;
+			margin: auto;
+			overflow: auto;
 		}
 	
-	#projects1 {
-		width: 80%;
-		margin: auto;
-		text-align: center;
-	}
-
-	#but-td:hover{
-		transform: scale(1.1);
-	}
-
-	.cod1:hover {
-		transform: scale(0.9);
-	}
-
-	.uri1:hover {
-		transform: scale(0.9);
-	}
-
-	footer {
-		width: 1215px;
-		margin-bottom: auto;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		text-align: left;
-		background-color: #ffffff;
-	}
-
-	#fter {
-		text-align: center;
-		font-family: 'Lucida Handwritting', 'Courier New', Courier, monospace, Arial;
-		font-weight: 900;
-		font-size: 20px;
-        color: #191970;
-	}
-        
-
+	
+		#but-td { width: 500px;
+			text-align:center;
+			transition: 0.7s;
+		}
+		
+		#body1 {
+			width: 1215px;
+			margin: auto;
+			background-color: #87CEEB;
+			height: 100%;
+		}
+	
+		#banner {
+			text-align:center;
+			width: 1215px;
+			margin: auto;
+			overflow: auto;
+		}
+	
+		p { 
+		font-family: Arial, Helvetica;
+		color: #000000;
+		margin-left: 20px;
+		}
+	
+		#body2 {  
+			width: 80%;
+			text-align:center;
+			margin: auto;
+			background-color: #87CEEB;
+			overflow: auto;
+			}
+		
+		#projects1 {
+			width: 80%;
+			margin: auto;
+			text-align: center;
+		}
+	
+		#but-td:hover{
+			transform: scale(1.1);
+		}
+	
+		.cod1:hover {
+			transform: scale(0.9);
+		}
+	
+		.uri1:hover {
+			transform: scale(0.9);
+		}
+	
+		footer {
+			width: 1215px;
+			margin-bottom: auto;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			text-align: left;
+			background-color: #ffffff;
+		}
+	
+		#fter {
+			text-align: center;
+			font-family: 'Lucida Handwritting', 'Courier New', Courier, monospace, Arial;
+			font-weight: 900;
+			font-size: 20px;
+			color: #191970;
+		}
+			
+	
+	
