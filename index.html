@@ -1,52 +1,118 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Abel's Programming Portfolio</title>
-        <link rel="stylesheet" href="domistyle.css">
-        <link rel="icon" href="https://github.com/afv22rd/afv22rd.github.io/blob/main/logo.png?raw=true">
-        
-    </head>
-    <body>
-        <div id="body1">
-		<img id="banner" src="https://github.com/afv22rd/afv22rd.github.io/blob/main/myBanner.jpg?raw=true" alt="banner">
-            <table id="buttons1">
+<head>
+  <title>Profile App</title>
+  <style>
+    /* CSS styles for the banner */
+    .banner {
+      background-color: #f1f1f1;
+      padding: 120px;
+    }
+
+    /* CSS styles for the table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    h1, h2 {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2.5em;
+    }
+  </style>
+</head>
+<body>
+    <div class="banner" style="position: relative;">
+        <img class="bannerLogos" src="C:\Users\abel-\OneDrive\Escritorio\URI\CSC305\Thunkable\ProfileApp\resources\abgram-high-resolution-logo-black-transparent.png" alt="ABGram Logo" style="width: 250px; position: absolute; top: 50%; left: 330px; transform: translateY(-50%);">
+        <img class="bannerLogos" src="C:\Users\abel-\OneDrive\Escritorio\URI\CSC305\Resources\305soft-high-resolution-logo-color-on-transparent-background.png" alt="CSC305 Logo" style="width: 200px; position: absolute; top: 50%; right: 330px; transform: translateY(-50%);">
+    </div>
+    <h1>Profile App</h1>
+
+    <iframe src="https://thunkable.site/w/XpNyCiRTo05GZRmranYFf" title="Profile App" height="690" width="500" style="display: block; margin: 0 auto; "></iframe>
+    <hr style="margin-top: 3em;">
+    <h2 style="text-align: center;">Profiles</h2>
+    <table id="profileTable">
+        <thead>
             <tr>
-			<td id="but-td"> <a href="https://afv22rd.github.io/index.html"> <img src="https://github.com/afv22rd/afv22rd.github.io/blob/main/home.png?raw=true" alt="Home"> </a> </td>
-                   	<td id="but-td"> <a href="https://afv22rd.github.io/javascripts.html"> <img src="https://github.com/afv22rd/afv22rd.github.io/blob/main/javascripts.png?raw=true" alt="Javascripts"> </a> </td>
-                    	<td id="but-td"> <a href="https://afv22rd.github.io/finalproject"> <img src="https://github.com/afv22rd/afv22rd.github.io/blob/main/finalproject.png?raw=true" alt="About Me"> </a> </td>
-                   	<td id="but-td"> <a href="https://afv22rd.github.io/about.html"> <img src="https://github.com/afv22rd/afv22rd.github.io/blob/main/about.png?raw=true" alt="About Me"> </a> </td>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Picture</th>
+                <th>Phone</th>
+                <th>Nationality</th>
             </tr>
-        </table>
-		    <div id="body2">
-            		<h1> Welcome to Abel's Programming Portfolio </h1>
-               		<p>
-                    	This is my programming portfolio for CSC106, my first programming course at the University Of Rhode Island. <br>
-                   	I will be posting all code I write here.
-                	</p>
-		    </div>
+        </thead>
+        <tbody>
+        <!-- Table rows will be dynamically populated using JavaScript -->
+        </tbody>
+    </table>
+    
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
 
-            <div class="coduri">
-                    <img class="cod1" src="https://github.com/afv22rd/afv22rd.github.io/blob/main/coding.jpeg?raw=true" alt="Coding" width="500px">
-                    <a href="https://www.uri.edu/" target="_blank"> <img class="uri1" src="https://github.com/afv22rd/afv22rd.github.io/blob/main/urilogo.png?raw=true" alt="URI Logo" width="500px"> </a>
-		    	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9790019888807809"
-			     crossorigin="anonymous"></script>
-			<!-- Ads -->
-			<ins class="adsbygoogle"
-			     style="display:block"
-			     data-ad-client="ca-pub-9790019888807809"
-			     data-ad-slot="5128605342"
-			     data-ad-format="auto"
-			     data-full-width-responsive="true"></ins>
-			<script>
-			     (adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-            </div>
-        </div>
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyBEOWWisgV1C0pc8DFJXBQSdkX5cXTIVB4",
+            authDomain: "profileapp-1b061.firebaseapp.com",
+            databaseURL: "https://profileapp-1b061-default-rtdb.firebaseio.com",
+            projectId: "profileapp-1b061",
+            storageBucket: "profileapp-1b061.appspot.com",
+            messagingSenderId: "815859337501",
+            appId: "1:815859337501:web:4e05260f3226a842aab9f4",
+            measurementId: "G-R1TSVR660X"
+        };
 
-        <footer>
-        <h1 id="fter"> Made By Abel Frias. All rights reserved. © Copyright 2022</h1>
-        </footer>
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
 
-    </body>
+        import {getDatabase, ref, get, set, child, update, remove}
+        from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+        
+        const db = getDatabase();
+
+        function displayData() {
+            const dbref = ref(db);
+
+            get(dbref)
+            .then((snapshot)=>{
+                if(snapshot.exists()){
+                    const data = snapshot.val();
+                    const profileTableBody = document.getElementById("profileTable");
+                    profileTableBody.innerHTML = ""; // Clear existing table rows
+                    Object.keys(data).forEach(key => {
+                        const person = data[key];
+                        const row = document.createElement("tr");
+                        row.innerHTML = `
+                            <td>${person.name}</td>
+                            <td>${person.address}</td>
+                            <td><img src="${person.image}" alt="Picture" style="max-width: 100px;"></td>
+                            <td>${person.phone}</td>
+                            <td>${person.nationality}</td>
+                        `;
+                        profileTableBody.appendChild(row);
+                    });
+                } else {
+                    alert("No data found");
+                }
+            })
+            .catch((error)=>{
+                alert(error)
+            })
+        }
+
+        // Call displayData function when the page loads
+        displayData();
+      </script>
+</body>
 </html>
